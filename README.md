@@ -15,7 +15,7 @@ For the purposes of the protocol, we're using a make-believe project called "My 
 1. Change the working directory to **~/Code**.
   - `cd ~/Code`
     - At this point, check your command-line prompt. You should **not** be in a Git repository already. Running `git status` should return something like, "Not a git repository". If your working directory is somehow a repository already, a couple things might be the cause:
-      - Maybe the current working directory isn't actually **~/Code**.
+      - Maybe the current working directory isn't actually **~/Code**. Use `pwd` to verify the current path.
       - Maybe you accidentally made **~/Code** a Git repository. You need to remove the repository (There's a protocol for this).
 2. Make a new folder for your project.
   - `mkdir my-blog`
@@ -35,7 +35,7 @@ For the purposes of the protocol, we're using a make-believe project called "My 
 - Where on your maching does this project live?
 - What is your current working directory?
 
-There's always a chance you think you're working on "My Blog", which is in **~/Code/my-blog**; but your current working directory in Terminal is **~/Code/final-project** (or something). Validate your assumptions before moving on.
+There's always a chance you think you're working on "My Blog", which is in **~/Code/my-blog**; but your current working directory in Terminal is **~/Code/final-project** (or something). Validate your assumptions with `pwd` before moving on.
 
 1. Check the status of your repository.
   - `git status`
