@@ -28,3 +28,27 @@ For the purposes of the protocol, we're using a make-believe project called "My 
   2. `git commit -m "First commit."`
 6. Now you can open the project's directory in TextMate and get to work.
   - `mate .`
+  
+## Making a new commit
+
+- What assignment or project are you working on right now?
+- Where on your maching does this project live?
+- What is your current working directory?
+
+There's always a chance you think you're working on "My Blog", which is in **~/Code/my-blog**; but your current working directory in Terminal is **~/Code/final-project** (or something). Validate your assumptions before moving on.
+
+1. Check the status of your repository.
+  - `git status`
+    - Are there any surprises? **Don't move on until you understand each line of your repository's status.**
+2. Stage the files containing changes (and/or any new files that relate to this commit).
+  - `git add file_path_1 file_path_2`
+3. Add the staged files to a commit and write a message explaining the commit.
+  - `git commit`
+  - In TextMate, you'll now be prompted for the commit message. Remember, a short (< 80 characters) title followed by an empty newline and then a longer description if needed.
+    - Save the file when you're finished (It's a temporary file, so you just need to do `CMD + S`. You don't need to choose where on your machine to save it to.)
+    - Close that file's window. (Don't quit TextMate entirely.)
+4. Verify that the commit took.
+  - `git status`
+    - Is the status what you're expecting?
+  - `git log`
+    - Do you see your latest commit message in the log?
