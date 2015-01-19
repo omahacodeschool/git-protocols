@@ -4,7 +4,7 @@
 
 - What assignment or project is this repository for? If you don't know the answer, you're not ready to create a repository yet.
 - Where on your machine is this project going to live?
-- Where is your current working directory?
+- What is your current working directory?
 
 Answers to the above questions are necessary before you can move on.
 
