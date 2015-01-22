@@ -44,7 +44,7 @@ There's always a chance you think you're working on "My Blog", which is in **~/C
   - `git add file_path_1 file_path_2`
 3. Add the staged files to a commit and write a message explaining the commit.
   - `git commit`
-  - In TextMate, you'll now be prompted for the commit message. Remember, a short (< 80 characters) title followed by an empty newline and then a longer description if needed.
+  - In TextMate, you'll now be prompted for the commit message. Remember, a short (< 80 characters) title followed by an empty newline and then a longer description if needed. Remember that your commit messages should be such that anyone who reads them can figure out very quickly what's been done, what's in progress, and what still needs to be finished before you can say that you're done.
     - Save the file when you're finished (It's a temporary file, so you just need to do `CMD + S`. You don't need to choose where on your machine to save it to.)
     - Close that file's window. (Don't quit TextMate entirely.)
 4. Verify that the commit took.
